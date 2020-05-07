@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import classes from './main.module.css';
 
 class Main extends Component {
     state = {  }
     
     render() { 
         return (  
-            <div>Main Page</div>
+            <div className={classes.heading}>Main Page</div>
         );
     }
 }
