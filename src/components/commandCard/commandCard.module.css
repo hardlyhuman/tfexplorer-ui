@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.mainDiv{
+    width: 40em;
+    background-color: #20252d;
+    border-radius: 0.5em;
+    height: 4em;
+    border-left: 0.6em solid #00bfaa;
+}
+
+.containerDiv{
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 1.1em;
+    margin-left: 1em;
+    letter-spacing: 0.09em;
+    animation: typewriter 4s steps(100) 1s 1 normal both;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 40em;}
+}
