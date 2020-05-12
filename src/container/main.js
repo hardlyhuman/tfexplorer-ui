@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import classes from './main.module.css';
-
 class Main extends Component {
     state = {}
 
     render() {
         return (
-            <div className={classes.heading}>Main Page</div>
+            <>
             <div className={classes.header}>HEADER</div>
             <div className={classes.row}>
                 <div className={classes.column}>
@@ -19,6 +18,7 @@ class Main extends Component {
                 </div>
             </div>
             <div className={classes.footer}>FOOTER</div>
+            </>
         );
     }
 }
