@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.mainDiv{
+    width: 40em;
+    background-color: #20252d;
+    border-radius: 0.5em;
+    height: auto;
+    border-left: 0.6em solid #00bfaa;
+}
+
+.containerDiv{
+    color: white;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    padding: 1.1em 0em;
+    margin-left: 1em;
+    letter-spacing: 0.09em;
+}
